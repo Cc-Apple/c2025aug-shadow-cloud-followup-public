@@ -1,0 +1,9 @@
+﻿trust_family,hit_count,58評価,理由
+apple_id_account,2402,有効,Apple ID / account / accountsd 系の信頼状態線として使える
+authkit_akd,465,弱〜補助,akd/AuthKit/token系は存在するが強くはない
+trusted_device,18182,強い,trust / trusted device / pair 系の中心線
+keychain_escrow,1197,有効,Keychain / escrow / CKKS 系の補助線
+findmy_family,53993,ノイズ注意,family keyword は _productFamily = iPhone ノイズが大きいため FamilyControls証拠としては使わない
+screentime_managed,174,弱〜補助,ScreenTime / ManagedSettings は存在するが57単体では強くない
+lockdown_pairing,115,弱〜補助,pairing / lockdown は弱〜中。別章のbackup/handshakeと接続する
+cloud_trust_bridge,4431,強い補助,iCloud / CloudKit / cloudd / SFA 系とTrust Graphの橋渡し

@@ -1,0 +1,7 @@
+﻿系統,中核,score,band,通常説明,制御側解釈,65評価
+Trust Graph Lineage,12G-core partial,64,MEDIUM_HIGH,iCloud / Apple ID / Keychain / CloudKitは通常同期でも出る,12GでTrust/Account/Keychain/Cloud bridgeが同時に濃い,中〜強。単独確定ではなく補助軸。
+Backup / Manifest Inheritance,12G + mini1,92,VERY_STRONG,暗号ON backupならopaque Manifest.dbは通常説明可能,opaque反復 + transition + hash/size + backup/RTCR context + 端末偏り,強い構造証拠。ただしtampering proofではない。
+Proximity vs Cloud Separation,physical support weak / cloud-trust remains,75,STRONG,ログ不足・単端末観測・通常通信環境,物理近接強証拠なし。物理接触だけの説明は弱い。,物理接触説だけを下げる材料。非接触制御確定ではない。
+Evidence Preservation / Suppression Candidates,12G / 15G / iPhone11Pro / mini1,100,VERY_STRONG,容量不足・OS負荷・ログローテーション・アプリ仕様でも出る,trigger-pressure同時性、capture/backup risk、backup seam接続,強い候補。ただし保存妨害確定ではない。
+Normal-Control Stress,12G,70,STRONG,通常説明は一部残る,単一端末不具合・物理接触だけ・通常同期だけ・通常負荷だけでは苦しい,通常説明を強く圧迫。ただし攻撃証明ではない。
+Normal Hypothesis Collapse Table,12G + 15G/mini1 support,100,VERY_STRONG,各通常説明は個別には残る,複数独立軸で同時に圧迫される,最終表として採用。

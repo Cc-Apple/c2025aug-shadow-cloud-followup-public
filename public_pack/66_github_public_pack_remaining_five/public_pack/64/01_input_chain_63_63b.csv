@@ -1,0 +1,3 @@
+﻿番号,検証,status,final_verdict,主要値,採用
+63,normal_control_stress_test,DONE,NORMAL_CONTROL_STRESS_TEST_MEDIUM_HIGH_NORMAL_EXPLANATIONS_STRESSED,score=70; band=STRONG; strong_user=12G,YES
+63b,normal_control_raw_diff_audit,DONE,NORMAL_CONTROL_RAW_DIFF_AUDIT_PASSED_USE_63,device_severe_diff=0; group_severe_diff=0; strong_user=12G,YES

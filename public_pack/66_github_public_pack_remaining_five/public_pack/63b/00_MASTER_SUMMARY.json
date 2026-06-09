@@ -1,0 +1,34 @@
+{
+  "claim_boundary": [
+    "63b audits 63 against source CSVs from 58/60/61/62.",
+    "It does not perform a full raw log rescan.",
+    "Passing 63b means 63 can be used for 64, not that attack/control is proven.",
+    "This does not prove Apple involvement, hidden MDM, server-side control, or attacker intent."
+  ],
+  "device_minor_diff_count": 3,
+  "device_missing_in_63_count": 0,
+  "device_rows_recomputed": 10,
+  "device_severe_diff_count": 0,
+  "error_rows": 0,
+  "final_band": "VERY_STRONG",
+  "final_score": 90,
+  "final_verdict": "NORMAL_CONTROL_RAW_DIFF_AUDIT_PASSED_USE_63",
+  "group_minor_diff_count": 0,
+  "group_severe_diff_count": 0,
+  "input_58": "[LOCAL_PATH]\Desktop\\1\\58_trust_graph_lineage_seal",
+  "input_60": "[LOCAL_PATH]\Desktop\\1\\60_backup_manifest_inheritance_seal",
+  "input_61": "[LOCAL_PATH]\Desktop\\1\\61_proximity_vs_cloud_separation_review",
+  "input_62": "[LOCAL_PATH]\Desktop\\1\\62_evidence_preservation_suppression_review",
+  "input_63": "[LOCAL_PATH]\Desktop\\1\\63_normal_control_stress_test",
+  "medium_comparison_devices_recomputed": [],
+  "medium_user_core_devices_recomputed": [],
+  "next_script": "64_normal_hypothesis_collapse_table",
+  "output_dir": "[LOCAL_PATH]\Desktop\\1\\63b_normal_control_raw_diff_audit",
+  "script": "63b_normal_control_raw_diff_audit",
+  "status": "DONE",
+  "strong_comparison_devices_recomputed": [],
+  "strong_user_core_devices_recomputed": [
+    "12G"
+  ],
+  "version": "v1_source_csv_diff_audit_no_raw_rescan"
+}

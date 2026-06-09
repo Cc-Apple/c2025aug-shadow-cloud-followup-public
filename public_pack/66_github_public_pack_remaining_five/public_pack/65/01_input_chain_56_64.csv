@@ -1,0 +1,9 @@
+﻿番号,章,status,final_verdict,主要値,採用
+56,Big remaining marker index,DONE,BIG_REMAINING_MARKER_INDEX_READY,files_relevant=8153; files_scanned=8153; error_rows=0,YES
+58,Trust Graph Lineage seal,DONE,TRUST_GRAPH_LINEAGE_SEALED_MEDIUM_12G_CORE,core_device=12G; final_score=64; final_band=MEDIUM_HIGH,YES
+60,Backup / Manifest inheritance seal,DONE,BACKUP_MANIFEST_INHERITANCE_SEALED_STRONG_STRUCTURE_NOT_TAMPERING_PROOF,exact_manifestdb=137; final_score=92; final_band=VERY_STRONG,YES
+61,Proximity vs Cloud separation,DONE,PROXIMITY_CLOUD_SEPARATION_REVIEW_READY_WEAK_VISIBLE_PROXIMITY,shared_bssid=0; shared_plmn=0; physical_cluster=0,YES
+62,Evidence preservation / suppression review,DONE,EVIDENCE_PRESERVATION_SUPPRESSION_REVIEW_READY_STRONG_CANDIDATES,strong_devices=4; strong_cooccurrence=167; capture_backup_risk=36,YES
+63,Normal-control stress test,DONE,NORMAL_CONTROL_STRESS_TEST_MEDIUM_HIGH_NORMAL_EXPLANATIONS_STRESSED,final_score=70; final_band=STRONG; strong_user=12G,YES
+63b,Normal-control raw diff audit,DONE,NORMAL_CONTROL_RAW_DIFF_AUDIT_PASSED_USE_63,device_severe_diff=0; group_severe_diff=0,YES
+64,Normal hypothesis collapse table,DONE,NORMAL_HYPOTHESIS_COLLAPSE_TABLE_READY_STRONG_STRESS,collapse_strength_score=100; core_device=12G; core_device_score=94,YES

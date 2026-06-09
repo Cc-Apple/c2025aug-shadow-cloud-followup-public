@@ -1,0 +1,5 @@
+﻿制限/ノイズ,内容,影響,58扱い
+family keyword noise,family hit は大半が _productFamily = iPhone の可能性,FindMy / FamilyControls の直接証拠としては使わない,明示的に減点・除外寄り
+12G偏重,strong_device_count=1で、主戦場が12Gに偏る,全端末横断Trust Graph確定とは言えない,12G-core partial seal として扱う
+通常同期,Apple ID / iCloud / Keychain / CloudKit は通常動作でも多く出る,hit数だけで攻撃・制御確定は不可,通常解釈と制御側解釈を併記
+57は56 index依存,57はraw全量再スキャンではなく56索引からの章切り出し,raw因果確定ではなく構造整理,章sealとして扱い、証明確定にはしない

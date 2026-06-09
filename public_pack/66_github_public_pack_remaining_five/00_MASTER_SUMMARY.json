@@ -1,0 +1,20 @@
+{
+  "claim_boundary": [
+    "This pack is sanitized and does not include raw logs or backup payload bodies.",
+    "This pack supports a strong multi-axis structure, not attack proof or attribution proof.",
+    "Do not claim Apple involvement, hidden MDM, server-side control, tampering, or attacker intent as proven."
+  ],
+  "copied_file_count": 63,
+  "copy_error_count": 0,
+  "error_rows": 0,
+  "final_verdict": "GITHUB_PUBLIC_PACK_REMAINING_FIVE_READY",
+  "output_dir": "D:\\Desktop\\1\\66_github_public_pack_remaining_five",
+  "pack_dir": "D:\\Desktop\\1\\66_github_public_pack_remaining_five\\public_pack",
+  "public_index_rows": 8,
+  "script": "66_github_public_pack_remaining_five",
+  "series_status": "FINISHED",
+  "status": "DONE",
+  "version": "v1_public_sanitized_pack_no_raw_logs",
+  "zip_path": "D:\\Desktop\\1\\66_github_public_pack_remaining_five\\remaining_five_system_public_pack.zip",
+  "zip_size_bytes": 71036
+}

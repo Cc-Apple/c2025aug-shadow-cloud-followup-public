@@ -1,0 +1,7 @@
+﻿通常仮説,63b確認,結果,63b判定
+summary合成の過剰評価,63 scoreを58/60/61/62元CSVから再計算,diff表で確認,severe diff が0なら63採用可能
+単一端末不具合説,strong_user=12G; medium_user=,複数USER_COREに強/中があれば弱まる。12G単独なら部分的に残る。,64で端末別に境界化
+対照/controlでも同程度説,strong_comp=; medium_comp=,comparison側が強ければcontrol clean性は下がる,control_risk_reviewで採用可否を分ける
+物理接触説,shared_bssid=0; shared_plmn=0; cluster_physical=0,61の結論をそのまま再確認,BSSID/PLMN共有0なら物理接触単独説は弱い
+暗号ON backup通常説明,60=BACKUP_MANIFEST_INHERITANCE_SEALED_STRONG_STRUCTURE_NOT_TAMPERING_PROOF; exact=137; opaque=130,opaque単独異常ではない。60のboundaryを維持。,tampering proofにしない
+容量不足/OS負荷説,62 strong_trigger_pressure=167; capture_backup_risk=36,通常負荷説明は残るがtrigger-pressure同時性はstress材料,妨害確定にしない

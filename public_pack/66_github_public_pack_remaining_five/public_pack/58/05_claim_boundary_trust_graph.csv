@@ -1,0 +1,10 @@
+﻿区分,内容,根拠,強さ
+言える,Trust Graph Lineage は57で正常完走し、材料量は十分,trust_context_rows=80187; trust_file_rows=6341; error_rows=0,中〜強
+言える,Trust Graph Lineage の主戦場は12G,core_device=12G; strong_device_count=1; medium_device_count=0,強い
+言える,trusted_device / cloud_trust_bridge / apple_id_account / keychain_escrow は有効線,trust family summary,中
+言える,family hit はFamilyControls証拠としては扱えない,keyword family が _productFamily ノイズの可能性大,強い注意点
+言える,58では 12G-core partial Trust Graph Lineage としてsealするのが妥当,57 PARTIAL_REVIEW + 12G STRONG + family noise + 12G偏重,妥当
+言えない,hidden MDM確定,Trust Graph hitだけではMDM確定にならない,不可
+言えない,Apple関与確定,構造検証であり帰属証明ではない,不可
+言えない,server-side制御確定,server側ログ・署名付き証跡がない,不可
+言えない,Trust Graph悪用確定,通常同期でも出るため悪用確定は不可,不可

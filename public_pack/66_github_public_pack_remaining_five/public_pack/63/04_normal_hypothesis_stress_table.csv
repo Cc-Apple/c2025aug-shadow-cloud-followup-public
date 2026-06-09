@@ -1,0 +1,8 @@
+﻿通常仮説,通常側の説明,ストレス材料,判定,強さ
+単なる通常iCloud/Apple ID同期,"Apple ID, iCloud, Keychain, CloudKitは通常同期でも出る",Trust core=12G; user/control比較=CONTROL_BASELINE_EMPTY_USER_PRESENT,一部残るが、12G-core Trust Graphと他章接続で弱まる,MEDIUM_STRESSED
+暗号ON backupによるManifest opaque,暗号ONならManifest.db opaque/high entropyは通常説明可能,exact=137; opaque=130; 12G/mini1/iPad/iPhone11Pro偏り; transition/hash/context接続,opaque単独は通常説明が残るが、継承構造は通常説明を圧迫,STRONG_STRUCTURE_NOT_TAMPERING_PROOF
+物理接近・同一Wi-Fi環境で説明,BSSID/RSSI共有があれば同じ場所で説明可能,shared_bssid=0; shared_plmn=0; cluster_physical=0,61上は物理近接強証拠なし。C2025AUGは物理接触説だけでは弱い,PHYSICAL_EXPLANATION_WEAKENED
+単なる容量不足/OS負荷,jetsam/diskwrites/cpu_resource/log rotationは通常負荷でも出る,strong_trigger_pressure_cooccurrence=167; capture_backup_risk=36; strong_user=12G,通常負荷説明は残るが、trigger-pressure同日結合が多く単純説明は弱まる,STRONG_STRESSED_NOT_ATTACK_PROOF
+単一端末の不具合,1台だけなら端末故障・設定・容量不足で説明しやすい,strong_user=12G; medium_user=,複数user core端末に分散するため単一端末説はかなり弱い,STRONG_STRESSED
+対照端末でも同じ程度に出る,正常端末でも同種ログは出る,strong_comp=; medium_comp=; group comparisonあり,比較端末にも補助hitはあるが、user core側の複合軸が強い,MEDIUM_HIGH_STRESSED
+攻撃/制御確定,逆に、強い構造があっても確定には証明不足,各章のclaim boundary,確定不可。構造証拠としてのみ扱う,BOUNDARY_REQUIRED

@@ -1,0 +1,4 @@
+﻿争点,観測,通常解釈,制御側解釈,63境界
+C2025AUGクラスタ物理接触説,shared_bssid=0; shared_plmn=0; cluster_physical=0,物理接触証拠が抽出されないなら、ログ不足または物理接触ではない,物理接触なしでもCloud/Trust/Backup/Platform-stateでクラスタが残る可能性,物理接近確定なし。非接触platform-state説は残るが確定ではない
+Backup/Manifest継承,60=BACKUP_MANIFEST_INHERITANCE_SEALED_STRONG_STRUCTURE_NOT_TAMPERING_PROOF,暗号ON backup / duplicate / backup copyで説明可能な部分あり,12G/mini1主戦場、opaque反復、transition、hash/context接続,tampering proofではなくstrong structure
+証拠保存性低下,62 strong_trigger_pressure=167; capture_backup_risk=36,通常負荷・容量不足・OSローテーション,trigger-pressure couplingが保存性低下候補,妨害確定ではなく、保存性低下候補

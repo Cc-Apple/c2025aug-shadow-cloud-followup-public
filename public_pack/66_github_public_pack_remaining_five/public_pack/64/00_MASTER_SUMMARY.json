@@ -1,0 +1,32 @@
+{
+  "63_final_band": "STRONG",
+  "63_final_score": 70,
+  "63_final_verdict": "NORMAL_CONTROL_STRESS_TEST_MEDIUM_HIGH_NORMAL_EXPLANATIONS_STRESSED",
+  "63b_device_severe_diff_count": 0,
+  "63b_final_verdict": "NORMAL_CONTROL_RAW_DIFF_AUDIT_PASSED_USE_63",
+  "63b_group_severe_diff_count": 0,
+  "claim_boundary": [
+    "Normal explanations are stressed, not fully eliminated in every dimension.",
+    "12G is the core device; 15G and mini1 provide medium support.",
+    "This does not prove attack, Apple involvement, hidden MDM, server-side control, or attacker intent."
+  ],
+  "collapse_strength_score": 100,
+  "collapse_table_rows": 7,
+  "core_device": "12G",
+  "core_device_score": 94,
+  "error_rows": 0,
+  "final_verdict": "NORMAL_HYPOTHESIS_COLLAPSE_TABLE_READY_STRONG_STRESS",
+  "input_63": "[LOCAL_PATH]\Desktop\\1\\63_normal_control_stress_test",
+  "input_63b": "[LOCAL_PATH]\Desktop\\1\\63b_normal_control_raw_diff_audit",
+  "medium_comparison_devices": "",
+  "medium_support_devices": [
+    "15G",
+    "mini1"
+  ],
+  "next_script": "65_remaining_five_system_final_seal",
+  "output_dir": "[LOCAL_PATH]\Desktop\\1\\64_normal_hypothesis_collapse_table",
+  "script": "64_normal_hypothesis_collapse_table",
+  "status": "DONE",
+  "strong_comparison_devices": "",
+  "version": "v1_careful_no_pandas"
+}

@@ -1,0 +1,8 @@
+﻿端末,65役割,根拠,通常説明,65評価
+12G,FINAL_CORE_DEVICE,Trust Graph core / Backup context core / Evidence pressure strong / Normal-control score 94,通常同期・backup・OS負荷は残る,最強中核。通常説明は複合的に強く圧迫。
+mini1,FINAL_TRANSITION_SUPPORT_DEVICE,SQLite OK / opaque transition / Evidence pressure medium / WeChat-content補助,暗号ON/OFFや端末負荷で説明可能な部分あり,中程度補助。Manifest状態遷移の重要端末。
+15G,FINAL_EVIDENCE_PRESSURE_SUPPORT_DEVICE,Evidence pressure strong / parsecd-cloudd-pressure補助 / Backup medium,OS負荷・Cloud同期・Spotlight通常処理で説明可能な部分あり,中程度補助。保存性低下候補の主補助線。
+iPhone11Pro,BACKUP_PRESSURE_AUX_DEVICE,62ではstrong candidates。ただし63複合scoreは弱い。,backupd/capture/通常負荷の説明が残る,補助扱い。強く言いすぎない。
+iPad,LOW_EXPOSURE_AUX_DEVICE,user coreだがログ量/複合scoreは弱い,低使用・低露出で説明可能,補助/低露出。
+mini2,AUX_DEVICE,Backup medium。ただし63複合scoreは弱い。,backup/通常ログで説明可能な部分あり,補助扱い。
+comparison/control群,COMPARISON_BASELINE_NOT_CLEAN_PROOF,strong/medium comparisonなし。ただし完全clean確定ではない。,正常iOSでも一部hitあり,比較補助。完全clean controlとは言わない。

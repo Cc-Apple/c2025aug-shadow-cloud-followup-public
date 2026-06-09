@@ -1,0 +1,6 @@
+﻿争点,通常解釈,制御側解釈,60評価
+opaque/high entropy Manifest.db,暗号ON backupではManifest.dbがSQLiteとして開けないopaque blobになり得る,opaqueが端末別・世代別に反復し、transition/hash/contextと接続するならbackup-ledger seamとして扱える,単独異常ではなく、継承構造の主材料
+mini1のSQLite OK混在,暗号OFF/ONやbackup方式の違い,同一端末で可読/不可読状態が切替わる比較可能な観測点,mini1を状態遷移の基準端末として採用
+12Gのbackup context集中,ログ量・backup回数・解析対象量の偏り,RTCR/flushMessages/backup markerがManifest継承と結合する主戦場,12Gをbackup context coreとして採用
+same-size different-hash,暗号blobやbackup更新では通常でも起こり得る,同じサイズのopaque ledgerが別内容へ変化する世代差分,補助線。改ざん確定ではない
+same-hash repetition,backup copy / duplicate / 同一世代保存,同一Manifest blobの反復・固定・再利用候補,補助線。単独決定打ではない
