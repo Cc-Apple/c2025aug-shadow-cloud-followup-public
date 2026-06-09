@@ -1,0 +1,5 @@
+﻿争点,通常解釈,制御側解釈,59評価
+Manifest.db opaque / non-SQLite,暗号化ONのiOS backupではManifest.dbが通常SQLiteとして開けない場合がある。,暗号ON/OFFだけでなく、世代・端末・同サイズ別hash・RTCR/backup markerとの連結があればbackup-ledger seamとして扱える。,60で暗号ON/OFFとopaque反復を分離してsealする。
+SQLite OKとopaqueの混在,暗号設定やbackup方式の違い。,同一/近接端末で状態遷移が出る場合、可読/不可読の世代差分として継承検証対象。,transition tableを見る。
+RTCR / flushMessages / backup context,通常の診断送信・backup関連ログ。,backup-ledger成立/不成立やSnapshot/Manifestの見え方と連動する補助線。,56由来backup_context_rows=199881
+端末別偏り,バックアップ回数・保存量・ログ量の差。,特定端末でManifest/backup seamが濃い場合、継承・不可視化・保存妨害の主戦場候補。,強=12G;mini1;iPad;iPhone11 / 中=Friend;15G;mini2

@@ -1,0 +1,5 @@
+﻿争点,通常解釈,制御側解釈,58評価
+Trust Graph Lineageが12Gで強い,12GでApple ID / iCloud / trust / keychain / cloud同期ログが多く出ただけの可能性,12G上で端末信頼状態・クラウド信頼状態・鍵束・SFA/CloudKitが同時評価された可能性,12G-core partial seal。全端末確定ではない。
+family hitが巨大,_productFamily = iPhone の通常メタデータノイズ,FamilyControls系を見る補助入口にはなるが、直接証拠ではない,FamilyControls証拠としては採用しない。
+SFA / cloud trust negative/state,通常の同期失敗・一時的ネットワーク/認証失敗,クラウド信頼状態・鍵束・account評価の失敗/制限の補助線,補助証拠として採用。単独決定打ではない。
+他端末のtrust_file_countは多いがscoreが弱い,ファイル名上のhitやノイズが多いだけ,露出面の差。context familyに出ない端末は別章で補う必要あり,強主張しない。59以降へ接続。

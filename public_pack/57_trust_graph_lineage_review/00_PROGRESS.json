@@ -1,0 +1,33 @@
+{
+  "claim_boundary": [
+    "This review uses the 56 index and does not rescan all raw logs.",
+    "High trust_graph_lineage hit density does not prove control by itself.",
+    "The purpose is to identify account/trust/keychain/ScreenTime/cloud lineage structure for the next seal step.",
+    "This does not prove Apple involvement, hidden MDM, server-side control, or attacker intent."
+  ],
+  "context_files": 39,
+  "context_rows_seen": 250000,
+  "device_summary_rows": 8,
+  "error_rows": 0,
+  "final_verdict": "TRUST_GRAPH_LINEAGE_PARTIAL_REVIEW_READY",
+  "input_56": "D:\\Desktop\\1\\56_big_remaining_marker_index",
+  "inventory_files": 3,
+  "keyword_rows": 34,
+  "medium_device_count": 0,
+  "next_script": "58_trust_graph_lineage_seal",
+  "output_dir": "D:\\Desktop\\1\\57_trust_graph_lineage_review",
+  "script": "57_trust_graph_lineage_review",
+  "stage": "done",
+  "status": "DONE",
+  "strong_device_count": 1,
+  "summary56_final_verdict": "BIG_REMAINING_MARKER_INDEX_READY",
+  "summary56_status": "DONE",
+  "time": "2026-06-09 17:40:46",
+  "trust_context_output_parts": 14,
+  "trust_context_rows": 80187,
+  "trust_context_sampled_rows": 80187,
+  "trust_family_rows": 8,
+  "trust_file_output_parts": 2,
+  "trust_file_rows": 6341,
+  "version": "v1_careful_no_pandas"
+}

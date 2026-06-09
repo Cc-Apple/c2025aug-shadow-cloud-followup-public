@@ -1,0 +1,3 @@
+﻿番号,検証,status,final_verdict,主要値,採用
+56,big_remaining_marker_index,DONE,BIG_REMAINING_MARKER_INDEX_READY,files_seen=17934; files_relevant=8153; files_scanned=8153; context_rows=250000,YES
+57,trust_graph_lineage_review,DONE,TRUST_GRAPH_LINEAGE_PARTIAL_REVIEW_READY,trust_context_rows=80187; trust_file_rows=6341; strong_device_count=1; medium_device_count=0; error_rows=0,YES_PARTIAL

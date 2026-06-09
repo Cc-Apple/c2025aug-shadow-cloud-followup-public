@@ -1,0 +1,5 @@
+﻿項目,値,割合,通常解釈,制御側解釈,60評価
+exact Manifest.db,137,100%,backup世代に存在するManifest.db母集団,継承/可視性評価の母集団,採用
+SQLite OK,7,5.11%,暗号OFFまたは可読backup状態,mini1だけ可読状態が混在し、世代遷移の比較軸になる,mini1限定の比較基準として採用
+opaque/high entropy,130,94.89%,暗号ON backupでは高entropy opaque blobは通常説明が残る,opaque反復・hash/size・transition・RTCR/backup contextと結合するとbackup-ledger seamになる,単独異常ではなく、継承構造の主材料として採用
+平均entropy,7.881396,,暗号blobとして自然,Manifest.dbが通常SQLite表層ではなくopaque ledgerとして反復,補助指標

@@ -1,0 +1,3 @@
+﻿次,判断,理由
+61_proximity_vs_cloud_separation_review,進める,Backup/Manifest継承章は60でseal。次はphysical proximity vs cloud/trust分離へ進む。
+60b_backup_manifest追加深掘り,原則不要,59の索引量・transition・hash pattern・device summaryが十分。追加はmini1/12Gだけ人間可読で掘る場合のみ。

@@ -1,0 +1,9 @@
+﻿端末推定,trust_file_count,negative_or_state_rows,apple_id_account,authkit_akd,trusted_device,keychain_escrow,findmy_family,screentime_managed,lockdown_pairing,cloud_trust_bridge,total_family_hits,active_family_count,trust_lineage_score,判定
+12G,927,436,2402,465,18182,1197,53993,174,115,4431,80959,8,84,STRONG_TRUST_GRAPH_LINEAGE_DEVICE
+15G,1780,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE
+Friend,131,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE
+iPad,8,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE
+iPhone11Pro,880,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE
+iPhone15 Pro,2,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE
+mini1,1042,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE
+mini2,1571,0,0,0,0,0,0,0,0,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE

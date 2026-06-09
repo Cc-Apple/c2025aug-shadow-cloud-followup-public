@@ -1,0 +1,5 @@
+﻿争点,通常解釈,制御側解釈,61評価
+BSSID/RSSI一致,同じ場所・同じWi-Fi環境にいた、またはログに周辺APが見えている,物理接近・近接環境共有の根拠になり得る,shared BSSIDが複数端末・同日で出る場合のみ強い
+CommCenter/Baseband/PLMN,通常の通信・SIM/eSIM・基地局状態,端末信頼・OTP・地域跨ぎ・接近タイミングと連動する補助線,cloud/trustと分離してTelecom線として扱う
+Cloud/Trustのみ強い,物理接近でなくiCloud/Account同期だけで説明可能,接触不要のcloud/trust条件発火,物理接触説を下げ、Cloud/Trust説を上げる
+BSSIDなしでクラスタ残存,ログ取得不足または物理接触ではない,platform-state / cloud-triggered cluster,C2025AUGの接触/非接触分離に使う

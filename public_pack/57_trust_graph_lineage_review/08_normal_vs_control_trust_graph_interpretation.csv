@@ -1,0 +1,4 @@
+﻿争点,通常解釈,制御側解釈,57評価
+trust_graph_lineageの偏り,Apple ID / iCloud / keychain / ScreenTime 関連ログは通常利用でも多く出る。,複数端末で account / trust / keychain / ScreenTime / cloud bridge が濃く出る場合、状態継承や制限状態の連結面として見る。,強=12G / 中= / 弱=15G;Friend;iPad;iPhone11Pro;iPhone15 Pro;mini1;mini2
+negative/state word,failed / denied / restricted などは一般的エラーや一時的失敗でも出る。,ScreenTime制限、sign-out制限、trust再評価、pairing不整合などと重なるなら異常状態の補助線になる。,negative_or_state_rowsを端末別に見る
+Trust Graph章の位置付け,クラウド・アカウント・鍵束の通常同期。,端末横断の状態継承、Cloud/backup/ScreenTime/Keychain橋渡し。,58でsealする

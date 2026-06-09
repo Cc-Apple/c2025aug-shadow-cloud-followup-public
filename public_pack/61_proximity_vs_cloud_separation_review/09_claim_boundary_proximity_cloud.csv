@@ -1,0 +1,7 @@
+﻿区分,内容,根拠,強さ
+言える,物理近接系、Telecom/Baseband系、Cloud/Trust系を分離して集計できた,61 daily matrix / cluster alignment / observation summary,構造整理
+言える,shared BSSID/RSSIがある場合、物理近接説明の補助線になる,shared_bssid_candidate_matrix,条件付き
+言える,Cloud/Trustが強くBSSID/RSSIが弱い場合、非接触cloud/trust説明が残る,daily matrix / cluster alignment,条件付き
+言えない,BSSIDが出た = 攻撃者接近確定,周辺AP観測や通常Wi-Fiでも出る,不可
+言えない,Cloud/Trustが出た = server-side制御確定,通常iCloud同期でも出る,不可
+言えない,Apple関与 / hidden MDM / 攻撃者意図確定,61は分離検証であり帰属証明ではない,不可

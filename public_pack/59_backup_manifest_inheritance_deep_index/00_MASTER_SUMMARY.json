@@ -1,0 +1,41 @@
+{
+  "56_backup_context_rows_sampled": 160000,
+  "56_backup_context_rows_total": 199881,
+  "56_context_files_seen": 39,
+  "56_status": "DONE",
+  "58_final_verdict": "TRUST_GRAPH_LINEAGE_SEALED_MEDIUM_12G_CORE",
+  "backup_generation_rows": 12060,
+  "claim_boundary": [
+    "This deep index avoids reading 00-ff file bodies and Snapshot subtree contents.",
+    "SQLite/non-SQLite differences may be explained by encryption mode and backup method; 60 must separate normal encryption from abnormal inheritance patterns.",
+    "This index does not prove tampering, Apple involvement, hidden MDM, server-side control, or attacker intent."
+  ],
+  "device_summary_rows": 9,
+  "error_rows": 0,
+  "files_kept": 45458,
+  "files_seen": 45458,
+  "final_verdict": "BACKUP_MANIFEST_INHERITANCE_DEEP_INDEX_READY",
+  "input_56": "D:\\Desktop\\1\\56_big_remaining_marker_index",
+  "input_58": "D:\\Desktop\\1\\58_trust_graph_lineage_seal",
+  "manifest_roots": [
+    "H:\\Manifest"
+  ],
+  "manifestdb_exact_count": 137,
+  "manifestdb_opaque_count": 130,
+  "manifestdb_sqlite_ok_count": 7,
+  "medium_device_count": 3,
+  "next_script": "60_backup_manifest_inheritance_seal",
+  "output_dir": "D:\\Desktop\\1\\59_backup_manifest_inheritance_deep_index",
+  "plist_rows": 950,
+  "same_hash_repetition_groups": 27,
+  "same_size_different_hash_groups": 5,
+  "script": "59_backup_manifest_inheritance_deep_index",
+  "skipped_body_dirs_00_ff": 32,
+  "skipped_snapshot_subtrees": 3,
+  "snapshot_dir_rows": 3,
+  "status": "DONE",
+  "strong_device_count": 4,
+  "transition_rows": 128,
+  "transition_summary_rows": 4,
+  "version": "v1_careful_no_pandas"
+}

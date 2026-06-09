@@ -1,0 +1,35 @@
+{
+  "category_summary_rows": 6,
+  "context_parts": 39,
+  "context_rows": 250000,
+  "device_month_rows": 49,
+  "device_summary_rows": 8,
+  "error_rows": 0,
+  "file_inventory_parts": 3,
+  "files_relevant": 8153,
+  "files_scanned": 8153,
+  "files_seen": 17934,
+  "files_skipped_large": 0,
+  "final_verdict": "BIG_REMAINING_MARKER_INDEX_READY",
+  "input_roots": [
+    "H:\\Device-Logs_整理済み"
+  ],
+  "next_scripts": [
+    "57_trust_graph_lineage_review",
+    "58_trust_graph_lineage_seal",
+    "59_backup_manifest_inheritance_deep_index",
+    "60_backup_manifest_inheritance_seal",
+    "61_proximity_vs_cloud_separation_review",
+    "62_evidence_preservation_suppression_review",
+    "63_normal_control_stress_test",
+    "64_normal_hypothesis_collapse_table",
+    "65_remaining_five_system_final_seal",
+    "66_github_public_pack_remaining_five"
+  ],
+  "output_dir": "D:\\Desktop\\1\\56_big_remaining_marker_index",
+  "script": "56_big_remaining_marker_index",
+  "stage": "done",
+  "status": "DONE",
+  "time": "2026-06-09 17:19:47",
+  "version": "v1_careful_no_pandas"
+}

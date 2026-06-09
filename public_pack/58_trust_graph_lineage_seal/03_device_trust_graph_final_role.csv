@@ -1,0 +1,9 @@
+﻿端末推定,trust_file_count,negative_or_state_rows,active_family_count,total_family_hits,trust_lineage_score,57判定,58役割,58注記
+12G,927,436,8,80959,84,STRONG_TRUST_GRAPH_LINEAGE_DEVICE,CORE_TRUST_GRAPH_DEVICE,Trust Graph Lineage の主戦場。58では12G中心sealとして扱う。
+15G,1780,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,FILE_DENSE_CONTEXT_WEAK_DEVICE,trust_file_countは多いがcontext family scoreが弱い。58では強主張しない。
+Friend,131,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,AUXILIARY_DEVICE,補助端末。単体強証拠ではない。
+iPad,8,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,AUXILIARY_DEVICE,補助端末。単体強証拠ではない。
+iPhone11Pro,880,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,FILE_DENSE_CONTEXT_WEAK_DEVICE,trust_file_countは多いがcontext family scoreが弱い。58では強主張しない。
+iPhone15 Pro,2,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,AUXILIARY_DEVICE,補助端末。単体強証拠ではない。
+mini1,1042,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,FILE_DENSE_CONTEXT_WEAK_DEVICE,trust_file_countは多いがcontext family scoreが弱い。58では強主張しない。
+mini2,1571,0,0,0,0,LOW_TRUST_GRAPH_LINEAGE_DEVICE,FILE_DENSE_CONTEXT_WEAK_DEVICE,trust_file_countは多いがcontext family scoreが弱い。58では強主張しない。

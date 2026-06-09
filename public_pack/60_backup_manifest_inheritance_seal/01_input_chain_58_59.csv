@@ -1,0 +1,3 @@
+﻿番号,検証,status,final_verdict,主要値,採用
+58,trust_graph_lineage_seal,DONE,TRUST_GRAPH_LINEAGE_SEALED_MEDIUM_12G_CORE,core_device=12G; final_score=64; final_band=MEDIUM_HIGH,YES
+59,backup_manifest_inheritance_deep_index,DONE,BACKUP_MANIFEST_INHERITANCE_DEEP_INDEX_READY,exact=137; sqlite_ok=7; opaque=130; transitions=128; same_size_diff=5; same_hash_rep=27; ctx56=199881; error_rows=0,YES

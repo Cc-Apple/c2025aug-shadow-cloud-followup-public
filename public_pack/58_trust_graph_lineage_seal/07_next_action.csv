@@ -1,0 +1,3 @@
+﻿次,判断,理由
+59_backup_manifest_inheritance_deep_index,進める,58でTrust Graphは12G-core partialとしてseal。次はbackup/Manifest継承の本丸へ進む。
+Trust Graph追加深掘り,原則不要,57/58で章sealは可能。familyノイズと12G偏重を明記すれば足りる。
