@@ -1,0 +1,6 @@
+﻿番号,検証,status,final_verdict,主要値,採用
+56,big_remaining_marker_index,DONE,BIG_REMAINING_MARKER_INDEX_READY,files_seen=17934; context_rows=250000; error_rows=0,YES
+58,trust_graph_lineage_seal,DONE,TRUST_GRAPH_LINEAGE_SEALED_MEDIUM_12G_CORE,core_device=12G; final_score=64,YES
+60,backup_manifest_inheritance_seal,DONE,BACKUP_MANIFEST_INHERITANCE_SEALED_STRONG_STRUCTURE_NOT_TAMPERING_PROOF,exact_manifestdb=137; final_score=92,YES
+61,proximity_vs_cloud_separation_review,DONE,PROXIMITY_CLOUD_SEPARATION_REVIEW_READY_WEAK_VISIBLE_PROXIMITY,shared_bssid=0; shared_plmn=0,YES
+62,evidence_preservation_suppression_review,DONE,EVIDENCE_PRESERVATION_SUPPRESSION_REVIEW_READY_STRONG_CANDIDATES,strong_devices=4; strong_cooccurrence=167,YES

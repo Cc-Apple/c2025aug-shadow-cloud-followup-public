@@ -1,0 +1,6 @@
+﻿区分,内容,根拠
+言える,通常説明は一部残るが、複合軸では強く圧迫される。,63 score=70 / 63b severe diff=0
+言える,12Gが通常仮説stressの中核。,12G combined score=94
+言える,63の結論は63bで元CSV再計算と一致し、過剰評価ではない。,device_severe_diff=0; group_severe_diff=0
+言える,64で通常仮説崩壊表としてまとめられる。,63/63b通過
+言えない,攻撃確定 / Apple関与確定 / hidden MDM確定 / server-side制御確定 / 攻撃者意図確定,63/63b/64は通常仮説stressであり帰属証明ではない

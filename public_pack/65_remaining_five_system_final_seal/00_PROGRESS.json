@@ -1,0 +1,40 @@
+{
+  "axis_average_score": 83.5,
+  "axis_rows": 6,
+  "claim_boundary": [
+    "This final seal confirms a strong multi-axis structure, not proof of attack or attribution.",
+    "12G is the final core device; 15G and mini1 are supporting devices.",
+    "Normal explanations remain partially available, but simple normal explanations are materially stressed.",
+    "This does not prove Apple involvement, hidden MDM, server-side control, tampering, or attacker intent."
+  ],
+  "claim_rows": 11,
+  "core_device": "12G",
+  "critical_pass": true,
+  "device_rows": 7,
+  "error_rows": 0,
+  "final_band": "VERY_STRONG",
+  "final_score": 95,
+  "final_verdict": "REMAINING_FIVE_SYSTEM_FINAL_SEALED_VERY_STRONG_STRUCTURE_NOT_ATTRIBUTION_PROOF",
+  "input_chain_rows": 8,
+  "input_dirs": {
+    "56": "D:\\Desktop\\1\\56_big_remaining_marker_index",
+    "58": "D:\\Desktop\\1\\58_trust_graph_lineage_seal",
+    "60": "D:\\Desktop\\1\\60_backup_manifest_inheritance_seal",
+    "61": "D:\\Desktop\\1\\61_proximity_vs_cloud_separation_review",
+    "62": "D:\\Desktop\\1\\62_evidence_preservation_suppression_review",
+    "63": "D:\\Desktop\\1\\63_normal_control_stress_test",
+    "63b": "D:\\Desktop\\1\\63b_normal_control_raw_diff_audit",
+    "64": "D:\\Desktop\\1\\64_normal_hypothesis_collapse_table"
+  },
+  "next_script": "66_github_public_pack_remaining_five",
+  "output_dir": "D:\\Desktop\\1\\65_remaining_five_system_final_seal",
+  "script": "65_remaining_five_system_final_seal",
+  "stage": "done",
+  "status": "DONE",
+  "support_devices": [
+    "15G",
+    "mini1"
+  ],
+  "time": "2026-06-09 19:08:01",
+  "version": "v1_careful_no_pandas"
+}

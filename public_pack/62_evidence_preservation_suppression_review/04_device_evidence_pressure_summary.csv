@@ -1,0 +1,6 @@
+﻿端末推定,active_days,storage_memory_pressure,logging_deletion_rotation,capture_preservation_failure,backup_snapshot_failure,thermal_power_crash_reset,content_trigger_chain,spotlight_suggestion_sync_chain,policy_restriction_state,pressure_score_total,trigger_chain_score_total,combined_suppression_score_total,62役割
+12G,102,77406,23811,2984,39406,24379,545,21897,1305,416362,48039,464401,STRONG_EVIDENCE_PRESSURE_DEVICE
+15G,95,63484,3785,2943,5960,9394,1522,29099,1222,237559,65208,302767,STRONG_EVIDENCE_PRESSURE_DEVICE
+iPhone11Pro,90,25167,1819,2492,6913,6189,592,4558,634,112819,12160,124979,STRONG_EVIDENCE_PRESSURE_DEVICE
+mini1,15,11127,2236,2236,6793,10847,5134,4852,1332,79841,27770,107611,STRONG_EVIDENCE_PRESSURE_DEVICE
+iPad,37,1417,161,915,1061,824,45,355,56,11088,957,12045,WEAK_EVIDENCE_PRESSURE_DEVICE

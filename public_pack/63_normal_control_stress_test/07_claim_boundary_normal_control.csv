@@ -1,0 +1,10 @@
+﻿区分,内容,根拠,強さ
+言える,56〜62の複数章を横断し、通常解釈がどこまで耐えるかstress testした,63 device axis matrix / group comparison / normal hypothesis table,構造評価
+言える,単一端末不具合説は弱い,複数USER_CORE端末に複合軸の高スコア,中〜強
+言える,物理接触説だけでは弱い,61でshared BSSID/PLMNが0,中
+言える,Backup/Manifestはstrong structureだがtampering proofではない,60 claim boundary,強い境界
+言える,Evidence pressureはstrong candidatesだが妨害確定ではない,62 claim boundary,強い境界
+言えない,Apple関与確定,帰属証拠ではない,不可
+言えない,hidden MDM確定,MDM enrolled/supervised確定証拠ではない,不可
+言えない,server-side制御確定,server側ログ・署名付き証跡がない,不可
+言えない,攻撃者意図確定,意図はログ構造からは確定不可,不可

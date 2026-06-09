@@ -1,0 +1,6 @@
+﻿端末推定,63score,63band,64役割,通常説明stress
+12G,94,VERY_STRONG,中核。Trust/Backup/Cloud/Evidenceの複合軸が最強。,非常に強い
+15G,51,MEDIUM,Evidence pressure / backup補助軸。Trust/Proximityは弱い。,中
+mini1,51,MEDIUM,SQLite/opaque transition + evidence pressure補助軸。,中
+iPhone11Pro,27,WEAK,62では強いが63複合scoreでは弱い。補助扱い。,弱〜補助
+iPad,33,WEAK,user coreだが63上は弱い。補助/低露出。,弱

@@ -1,0 +1,8 @@
+﻿通常仮説,残る通常説明,崩す材料,63/63b根拠,崩壊度,採用表現,言えないこと
+単なる通常iCloud/Apple ID同期,iCloud / Apple ID / Keychain / CloudKit / trust は通常同期でも出る。,12GでTrust Graph core化し、Backup/Manifest・Evidence pressureと結合。63bでもscore差分なし。,12G score=94; 63b severe diff=0/0,中〜強く圧迫,通常同期だけでは説明が苦しい。ただしiCloud同期そのものは通常説明として残る。,Cloud/Trust悪用確定、server-side制御確定、Apple関与確定
+暗号ON backupによるManifest opaque,暗号ON backupではManifest.dbがopaque/high entropyになり得る。,60でexact Manifest.db 137本、opaque 130本、transition 128、same-size/hash pattern、12G/mini1主戦場をseal。,60 strong structure / 63b source support確認,一部残るが構造として強く圧迫,opaque単独は通常説明が残る。だがopaque反復+transition+hash/context結合はbackup-ledger seamとして強い。,tampering確定、opaque=異常確定
+物理接触・同一Wi-Fi環境で説明,同一BSSID/RSSIがあれば同じ場所で説明可能。,61でshared BSSID=0、shared PLMN=0、cluster physical support=0。,61結果を63/63bで維持,強く圧迫,C2025AUGは物理接触だけでは説明しにくい。非接触platform-state / cloud-trust説明が残る。,非接触制御確定、server-side制御確定
+単なる容量不足・OS負荷,jetsam / diskwrites / cpu_resource / log rotation は通常負荷でも出る。,62でstrong trigger-pressure cooccurrence 167日、capture/backup risk 36日、12G/15G/iPhone11Pro/mini1が強。,63/63bで12G strong、15G/mini1 medium,中〜強く圧迫,通常負荷説明は残るが、trigger-pressure同日結合が多く、単純な容量不足説は弱まる。,保存妨害確定、意図的阻止確定
+単一端末の不具合,1台だけなら端末故障・設定・容量不足で説明できる。,12G strong、15G/mini1 medium。62では12G/15G/iPhone11Pro/mini1がstrong candidates。,strong_user=12G; medium_user=,強く圧迫,単一端末不具合説はかなり弱い。ただし63のstrong中核は12Gなので、端末別境界は必要。,全端末が同一原因確定
+comparison/controlでも同程度に出る,正常iOSでも同種ログは出る。Friend等にも一部backup hitあり。,63bでstrong comparison/controlなし、medium comparison/controlなし。,strong_comp=; medium_comp=,中〜強く圧迫,comparison/control側にもノイズはあるが、user core側の複合軸の強さとは同程度ではない。,comparison/controlが完全clean確定
+攻撃・制御確定,構造が強くても、帰属・意図・server側証跡は不足。,各章claim boundaryで明示的に否定。,63/63b claim boundary,確定主張は不可,攻撃確定ではなく、通常説明が複合的に圧迫された構造証拠として扱う。,Apple関与、hidden MDM、server-side制御、攻撃者意図

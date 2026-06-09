@@ -1,0 +1,3 @@
+﻿次,判断,理由
+64_normal_hypothesis_collapse_table,進める,63でstress test済み。64で通常仮説崩壊表として人間可読に整理する。
+63b_raw_control_deep_scan,原則不要,63は56〜62のsummary横断で十分。追加するならcontrol端末だけraw深掘りする場合。

@@ -1,0 +1,6 @@
+﻿axis,user_core_device_count,comparison_device_count,user_core_avg,comparison_avg,user_vs_comparison_ratio,stress_result
+Trust Graph,6,3,14.0,0.0,,CONTROL_BASELINE_EMPTY_USER_PRESENT
+Backup/Manifest,6,3,64.667,37.667,1.717,NORMAL_CONTROL_STRESSED_MEDIUM
+Proximity/Cloud separation,6,3,16.667,0.0,,CONTROL_BASELINE_EMPTY_USER_PRESENT
+Evidence pressure,6,3,68.333,0.0,,CONTROL_BASELINE_EMPTY_USER_PRESENT
+Combined,6,3,45.833,10.0,4.583,NORMAL_CONTROL_STRESSED_STRONG

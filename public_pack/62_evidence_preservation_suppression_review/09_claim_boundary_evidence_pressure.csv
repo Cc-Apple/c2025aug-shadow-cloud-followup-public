@@ -1,0 +1,7 @@
+﻿区分,内容,根拠,強さ
+言える,証拠保存妨害候補を pressure / logging deletion / capture failure / backup failure / trigger chain に分離できた,62 daily matrix / trigger cooccurrence / device summary,構造整理
+言える,trigger chain と pressure が同日に強く出る端末・日付は保存性低下候補になる,06_trigger_pressure_cooccurrence.csv,条件付き
+言える,60のBackup/Manifest章と接続し、backup/snapshot保存失敗線を補助できる,backup_snapshot_failure category,補助
+言えない,pressure/log deletion = 攻撃確定,通常OS動作・容量不足・アプリ負荷でも出る,不可
+言えない,screenshot失敗 = 意図的阻止確定,アプリ仕様・権限・一時的失敗で説明可能,不可
+言えない,Apple関与 / hidden MDM / server-side制御 / 攻撃者意図確定,62は保存性低下の構造整理であり帰属証明ではない,不可
