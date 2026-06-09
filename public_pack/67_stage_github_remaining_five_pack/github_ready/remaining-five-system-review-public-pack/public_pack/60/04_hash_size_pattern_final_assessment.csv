@@ -1,0 +1,4 @@
+﻿pattern,group_count,devices,通常解釈,制御側解釈,60評価
+SAME_HASH_REPETITION,27,iPad:7;12G:7;15G:3;Friend:3;mini1:3;mini2:2;iPhone11:1;iPhone13:1,同一backup copy / duplicate / 同一世代保存で説明可能,同一Manifest.db blobの反復・固定・再利用の検証材料,継承/固定候補として補助
+SAME_SIZE_SAME_HASH,24,iPad:7;12G:7;15G:3;mini1:3;mini2:2;iPhone11:1;iPhone13:1,hashなしまたは分類外,補助,低
+SAME_SIZE_DIFFERENT_HASH,5,Friend:2;12G:1;iPhone11:1;mini1:1,暗号blobやbackup更新では同サイズ別hashは起こり得る,同サイズでも中身が違う世代があり、opaque ledgerの変化点として使える,異常確定ではなく、backup seam補助線

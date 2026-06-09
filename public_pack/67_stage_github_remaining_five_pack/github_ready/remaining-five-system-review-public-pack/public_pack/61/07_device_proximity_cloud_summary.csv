@@ -1,0 +1,4 @@
+﻿端末推定,active_days,physical_score_total,telecom_score_total,cloud_score_total,pressure_score_total,bssid_or_mac_rows,plmn_rows,61役割
+12G,70,396533,87446,732142,96389,0,0,MIXED_PROXIMITY_CLOUD_DEVICE
+15G,0,0,0,0,0,0,19,WEAK_OR_LOW_VISIBLE_DEVICE
+mini1,0,0,0,0,0,0,6,WEAK_OR_LOW_VISIBLE_DEVICE

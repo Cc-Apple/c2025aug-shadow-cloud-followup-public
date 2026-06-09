@@ -1,0 +1,12 @@
+﻿区分,内容,根拠,65強さ
+言える,残り5系統検証は56〜64で完了し、65で最終seal可能。,56/58/60/61/62/63/63b/64 all DONE / error_rows=0,強い
+言える,最強中核は12G。,Trust Graph core / Backup context core / Normal-control score 94,強い
+言える,Backup / Manifest Inheritance はstrong structureとして成立。,60 final_score=92 / exact Manifest.db 137 / opaque 130 / transition 128,強い。ただしtampering proofではない。
+言える,物理接触説だけでは弱い。,61 shared BSSID=0 / shared PLMN=0 / cluster physical support=0,中〜強
+言える,証拠保存性低下候補は強い。,62 strong candidates / trigger-pressure 167日 / capture-backup risk 36日,強い候補。ただし妨害確定ではない。
+言える,通常説明は一部残るが、単純通常説明だけではかなり苦しい。,63 score=70 / 63b severe diff=0 / 64 collapse score=100,強いstress
+言えない,攻撃確定,構造証拠であり、攻撃主体・手段の直接証明ではない,不可
+言えない,Apple関与確定,帰属証明ではない,不可
+言えない,hidden MDM確定,MDM enrolled/supervised確定証拠ではない,不可
+言えない,server-side制御確定,server側ログ・署名付き証跡がない,不可
+言えない,攻撃者意図確定,意図はログ構造のみでは確定不可,不可

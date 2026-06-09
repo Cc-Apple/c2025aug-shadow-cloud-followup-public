@@ -1,0 +1,10 @@
+﻿区分,内容,根拠,強さ
+言える,Backup / Manifest / RTCR / Snapshot / iMazing 継承章の索引は成立,59 status=DONE / error_rows=0 / final_verdict=BACKUP_MANIFEST_INHERITANCE_DEEP_INDEX_READY,強い
+言える,exact Manifest.db は137本、うち大半がopaque/high entropy,59 exact=137 / opaque=130,強い
+言える,SQLite OKはmini1に限定され、可読/不可読transitionの比較軸になる,"SQLite OK=7, all mini1",強い
+言える,12Gはbackup/RTCR/flushMessages contextと強く接続する,56_backup_context_rows_total=199881 / 12G inheritance_score=90,強い
+言える,same-size different-hash と same-hash repetition は継承/固定/再利用の補助線,same_size_different_hash_groups=5 / same_hash_repetition_groups=27,中
+言える,Snapshot本文と00〜ff実体群を読まずmetadata中心で扱えた,59安全設計,強い
+言えない,opaque Manifest.db = 異常確定,暗号ON backupの通常説明が残る,不可
+言えない,same-hash repetition = 改ざん確定,backup copy / duplicate / 同一世代保存で説明可能,不可
+言えない,tampering確定 / Apple関与確定 / hidden MDM確定 / server-side制御確定 / 攻撃者意図確定,60は構造sealであり帰属・意図・改ざん証明ではない,不可

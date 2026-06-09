@@ -1,0 +1,5 @@
+﻿transition,count,通常解釈,制御側解釈,60評価
+OPAQUE_HIGH_ENTROPY->OPAQUE_HIGH_ENTROPY,119,暗号ON backup世代が連続すれば通常でも支配的に出る,opaque状態が世代を跨いで継続するbackup-ledger seam,支配的遷移として採用。ただし単独異常とはしない
+SQLITE_HEADER->SQLITE_HEADER,4,暗号ON/OFFやbackup方式変更による可読性差分,mini1で可読/不可読状態の切替が見える重要遷移,mini1の世代差分として重要
+OPAQUE_HIGH_ENTROPY->SQLITE_HEADER,3,暗号ON/OFFやbackup方式変更による可読性差分,mini1で可読/不可読状態の切替が見える重要遷移,mini1の世代差分として重要
+SQLITE_HEADER->OPAQUE_HIGH_ENTROPY,2,暗号ON/OFFやbackup方式変更による可読性差分,mini1で可読/不可読状態の切替が見える重要遷移,mini1の世代差分として重要

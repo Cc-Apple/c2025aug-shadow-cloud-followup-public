@@ -1,0 +1,6 @@
+﻿争点,通常解釈,制御側解釈,62評価
+jetsam/diskwrites/storage pressure,通常の容量不足・メモリ不足・アプリ負荷でも発生する,重要操作時に集中するなら保存妨害・証拠保存低下の補助線,日次・端末別・trigger chainとの同時性を見る
+logd/deleted/analyticsd,通常のログローテーション・期限切れ削除・OS管理,保存したいタイミングの消失/圧迫と重なるなら証拠不可視化補助線,単独では弱い。同時性が重要
+screenshot/screenrecord/capture failure,権限・アプリ仕様・DRM・一時的UI失敗,特定操作時にpressure/log deletion/backup failureと同時なら保存阻止候補,capture_preservation_failure と他カテゴリのcouplingを見る
+WeChat/pasted/parsecd/duetexpertd/searchd/suggestd/cloudd,通常の検索・提案・同期・ペースト処理,内容イベント起点でSpotlight/Cloud/削除/圧迫が連鎖する可能性,trigger_chain_score と pressure_score の同日結合を見る
+backup/snapshot/Manifest failure,backup状態・容量・ケーブル・アプリ仕様・暗号化条件,60のbackup-ledger seamと保存失敗/pressureが重なるなら証拠保存妨害線,60と接続する補助章

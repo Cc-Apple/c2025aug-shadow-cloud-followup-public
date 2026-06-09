@@ -1,0 +1,34 @@
+{
+  "boundary_required_count": 1,
+  "claim_boundary": [
+    "This is a stress test of normal explanations, not proof of attack.",
+    "Control/comparison devices are not guaranteed clean controls; they are comparative baselines.",
+    "The result can weaken normal hypotheses but cannot prove Apple involvement, hidden MDM, server-side control, or attacker intent."
+  ],
+  "device_axis_rows": 10,
+  "error_rows": 0,
+  "final_band": "STRONG",
+  "final_score": 70,
+  "final_verdict": "NORMAL_CONTROL_STRESS_TEST_MEDIUM_HIGH_NORMAL_EXPLANATIONS_STRESSED",
+  "group_comparison_rows": 5,
+  "group_medium_stress_count": 1,
+  "group_strong_stress_count": 4,
+  "hypothesis_rows": 7,
+  "input_56": "[LOCAL_PATH]\Desktop\\1\\56_big_remaining_marker_index",
+  "input_58": "[LOCAL_PATH]\Desktop\\1\\58_trust_graph_lineage_seal",
+  "input_60": "[LOCAL_PATH]\Desktop\\1\\60_backup_manifest_inheritance_seal",
+  "input_61": "[LOCAL_PATH]\Desktop\\1\\61_proximity_vs_cloud_separation_review",
+  "input_62": "[LOCAL_PATH]\Desktop\\1\\62_evidence_preservation_suppression_review",
+  "medium_comparison_devices": [],
+  "medium_user_core_devices": [],
+  "next_script": "64_normal_hypothesis_collapse_table",
+  "output_dir": "[LOCAL_PATH]\Desktop\\1\\63_normal_control_stress_test",
+  "script": "63_normal_control_stress_test",
+  "status": "DONE",
+  "stressed_hypothesis_count": 5,
+  "strong_comparison_devices": [],
+  "strong_user_core_devices": [
+    "12G"
+  ],
+  "version": "v1_careful_no_pandas_summary_based"
+}

@@ -1,0 +1,6 @@
+﻿区分,内容,根拠,強さ
+言える,63のsummary合成結果を、58/60/61/62の元CSVから再計算して差分監査した,01_device_score_recompute_diff.csv / 02_group_stress_recompute_diff.csv,検算
+言える,severe diffが0なら63は採用可能,device_severe_diff=0; group_severe_diff=0,条件付き
+言える,comparison/control候補はclean controlとは限らず、control riskとして分ける必要がある,05_control_risk_review.csv,重要境界
+言えない,63/63bで攻撃確定,normal-control stress testは通常仮説の圧迫であり攻撃証明ではない,不可
+言えない,Apple関与 / hidden MDM / server-side制御 / 攻撃者意図確定,帰属・意図・server側証跡ではない,不可
